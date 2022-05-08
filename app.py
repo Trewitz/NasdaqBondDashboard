@@ -7,9 +7,6 @@ from scraper import Bond
 
 app = Dash(__name__)
 
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
-
 app.layout = html.Div(children=[
     html.H1(children='Nasdaq Danish Bond Dashboard'),
 
