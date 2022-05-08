@@ -11,7 +11,7 @@ app = Dash(__name__)
 # see https://plotly.com/python/px-arguments/ for more options
 
 app.layout = html.Div(children=[
-    html.H1(children='NasdaqDanishBondDashboard'),
+    html.H1(children='Nasdaq Danish Bond Dashboard'),
 
     html.Div([
         "Input: ",
