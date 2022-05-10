@@ -4,4 +4,8 @@ channels:
 dependencies:
   - python=3.10
   - pandas
+  - pip
+  - pip:
+    - requests
+    - dash
 prefix: C:\Users\rewit\anaconda3\envs\NasdaqBond
